@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Generative Snacks by gamesbyangelina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Generative Snacks</h1>
+      <h2 class="project-tagline">An abandoned project to build a generator of generators. Useful code, samples and images for use!</h2>
+      <a href="https://github.com/gamesbyangelina/nslive-generators" class="btn">View on GitHub</a>
+      <a href="https://github.com/gamesbyangelina/nslive-generators/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/gamesbyangelina/nslive-generators/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h2>
+<a id="about-the-repository" class="anchor" href="#about-the-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About The Repository</h2>
+
+<p>In September 2016 I gave a talk at the New Scientist Live event called 'The Digital Muse', about how generative software will affect our lives in the future. I had planned to make everyone in the audience their own personal generator, but sadly I didn't have time to finish the project. I got as far as making the beginnings of some small generators in Python, and now I'm opening the source and component images up to you, in case you can find a use for them!</p>
+
+<h2>
+<a id="a-quick-note-about-the-code" class="anchor" href="#a-quick-note-about-the-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A Quick Note About The Code</h2>
+
+<p>All of the scripts are written in Python, and I'm releasing this because I hope it'll help people or be fun to tinker with. The only problem is that my Python coding is <em>very bad</em>, so you'll see a lot of mistakes if you know the language. I also haven't commented the generators, and they were built quite quickly, so if you're trying to learn how they work that'll be hard right now. I'll try and clean them up one day, but if anyone wants to improve the code, please be my guest.</p>
+
+<h2>
+<a id="details-on-the-generators" class="anchor" href="#details-on-the-generators" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Details On The Generators</h2>
+
+<p>There's a few generators, here's a quick rundown:</p>
+
+<h3>
+<a id="symlogo--symlogo4" class="anchor" href="#symlogo--symlogo4" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>symlogo &amp; symlogo4</h3>
+
+<p>These generate small pixel avatars similar to GitHub's avatars. Here's an example:</p>
+
+<p><img width="250" alt="logo" src="https://cloud.githubusercontent.com/assets/1212819/19060450/5577a022-89e0-11e6-8fb2-caf9b3dd7980.png">
+<img width="250" alt="screen shot 2016-10-04 at 03 23 46" src="https://cloud.githubusercontent.com/assets/1212819/19060673/fc537ac8-89e1-11e6-975d-eb2c7cd84a8b.png">
+<img width="250" alt="screen shot 2016-10-04 at 03 23 39" src="https://cloud.githubusercontent.com/assets/1212819/19060672/fc51cf20-89e1-11e6-8d2f-d9d8fc65f4ef.png"></p>
+
+<h3>
+<a id="patterns" class="anchor" href="#patterns" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>patterns</h3>
+
+<p>This generates some abstract patterns, generally using some preset recipes, occasionally using some symbols I knocked up.</p>
+
+<p><img width="250" alt="pattern" src="https://cloud.githubusercontent.com/assets/1212819/19060462/6663cbfe-89e0-11e6-95c6-b12ce6746adc.png">
+<img width="250" alt="screen shot 2016-10-04 at 03 17 44" src="https://cloud.githubusercontent.com/assets/1212819/19060568/2a15cdfe-89e1-11e6-83ec-ea5e8a71fc05.png">
+<img width="250" alt="screen shot 2016-10-04 at 03 17 33" src="https://cloud.githubusercontent.com/assets/1212819/19060569/2a286d4c-89e1-11e6-8d56-0aa4ab6427bd.png"></p>
+
+<h3>
+<a id="animals" class="anchor" href="#animals" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>animals</h3>
+
+<p>This one generates small creatures from a few different template bits. The arrangement of the templates is a bit fiddly because it tries to dynamically compensate for things like leg height (instead of the templates always being placed in the same area. Some of them are kinda cute!</p>
+
+<p><img width="300" alt="animal1" src="https://cloud.githubusercontent.com/assets/1212819/19060488/9ad37128-89e0-11e6-83e9-dd6f6d3e50be.png">
+<img width="300" alt="animal2" src="https://cloud.githubusercontent.com/assets/1212819/19060489/9ad568f2-89e0-11e6-9b80-c90e313bf68e.png"></p>
+
+<h3>
+<a id="clothes" class="anchor" href="#clothes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>clothes</h3>
+
+<p>This one generates a mannequin-esque image with a hat, a top, a bottom, some shoes, and suchlike. Mostly it uses palette colours, but sometimes it'll generate a pattern and use that as the 'fabric' for one of the clothes pieces.</p>
+
+<p><img width="159" alt="clothes" src="https://cloud.githubusercontent.com/assets/1212819/19060459/665d923e-89e0-11e6-92dc-7cde5f458381.png">
+<img width="159" alt="clothes2" src="https://cloud.githubusercontent.com/assets/1212819/19060460/665ed496-89e0-11e6-8179-bdd08ad4212d.png">
+<img width="159" alt="screen shot 2016-10-04 at 03 23 13" src="https://cloud.githubusercontent.com/assets/1212819/19060665/e7761872-89e1-11e6-9979-e780cf7f9a70.png">
+<img width="159" alt="screen shot 2016-10-04 at 03 23 09" src="https://cloud.githubusercontent.com/assets/1212819/19060666/e785fe18-89e1-11e6-863d-8b6998a98b61.png"></p>
+
+<h3>
+<a id="crest" class="anchor" href="#crest" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>crest</h3>
+
+<p>This generates 'family crest'-style pictures, using a fixed base template and then generating patterns and animals to take up spots in the crests.</p>
+
+<p><img width="250" alt="crest" src="https://cloud.githubusercontent.com/assets/1212819/19060461/66624680-89e0-11e6-98d6-28657cfe959f.png">
+<img width="250" alt="screen shot 2016-10-04 at 03 19 39" src="https://cloud.githubusercontent.com/assets/1212819/19060646/c2a3690a-89e1-11e6-858d-ec02bf186424.png">
+<img width="250" alt="screen shot 2016-10-04 at 03 19 30" src="https://cloud.githubusercontent.com/assets/1212819/19060645/c2a31824-89e1-11e6-9fa6-3f48c56a1859.png"></p>
+
+<h3>
+<a id="flag" class="anchor" href="#flag" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>flag</h3>
+
+<p>Just like the crest, this one combines some preset patterns and generated animals to create flags.</p>
+
+<p><img width="350" alt="flag" src="https://cloud.githubusercontent.com/assets/1212819/19060463/6664b46a-89e0-11e6-8380-e41aad509833.png">
+<img width="350" alt="screen shot 2016-10-04 at 03 19 15" src="https://cloud.githubusercontent.com/assets/1212819/19060647/c2a70358-89e1-11e6-81c0-b745c9bdb774.png"></p>
+
+<h2>
+<a id="notes--thanks" class="anchor" href="#notes--thanks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Notes &amp; Thanks</h2>
+
+<p>The colour palettes in palettes.txt come from ColourLovers.com, you should totally add your own, or create a palette generator, or something in order to add more variety. I like the ones I chose but they do repeat after a while!</p>
+
+<p>This project was hugely inspired by <a href="https://managore.itch.io/">Daniel Linssen</a>'s Twitter projects for his followers - you should <a href="http://www.twitter.com/managore">follow him on Twitter</a> to be ready for his next one! It also owes a debt to <a href="http://www.twitter.com/galaxykate">Kate Compton</a>'s general attitude towards generative software, and of course <a href="http://www.tracery.io">Tracery</a>. The pattern and fabric generators owe their inspiration to <a href="http://www.twitter.com/gillianmsmith">Gillian Smith</a>, <a href="http://www.twitter.com/anneandkita">Anne Sullivan</a>, and <a href="https://eduardo.itch.io/">Eduardo's procedural fabric generator</a>. Thanks to <a href="http://www.twitter.com/gileadamit">Gilead Amit</a> for inviting me to talk at New Scientist Live and inspiring the project (and apologies to him that I couldn't finish it). And thanks to you for checking the repo out, I really hope it's useful! <a href="http://www.twitter.com/mtrc">Let me know on Twitter if it is</a>. </p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/gamesbyangelina/nslive-generators">Generative Snacks</a> is maintained by <a href="https://github.com/gamesbyangelina">gamesbyangelina</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
